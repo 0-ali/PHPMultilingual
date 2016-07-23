@@ -3,8 +3,12 @@ PHP Multilingual
 **Add PHP Multilingual Support to a Website.** 
 
 ---
-Are you interested in having a multilingual website?
+
+Are you interested in having a multilingual website ?
+<br>
 <img src="http://www.bitrepository.com/wp-content/uploads/2009/07/php-multi-language-site.jpg">
+<br>
+
 > The solution is PHPMultilingual.
 
 ## Usage
@@ -13,7 +17,8 @@ Are you interested in having a multilingual website?
 ```php
  require __DIR__ . "/Class.Phrase.php";
 ```
-* * *
+----
+<br>
 ###Phrases file
 The first thing we need to do is to create a Phrases files that will contain the text for each of the languages that will be supported by the website. 
  For demo purpose I have chosen English.
@@ -36,6 +41,9 @@ The first thing we need to do is to create a Phrases files that will contain the
 #### Notice
  * Should be a valid JSON object.
 
+----- 
+
+<br>
 ### Multilingual
 The second thing we need to do is to create a extend class that will allow process the **Phrases File**.
  For demo purpose I have chosen English as Class Name.
